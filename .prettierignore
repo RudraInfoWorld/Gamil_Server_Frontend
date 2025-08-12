@@ -1,0 +1,23 @@
+# Ignore build output folders
+dist/
+out-tsc/
+build/
+
+# Ignore node modules
+node_modules/
+
+# Ignore environment files (optional, if you don't want formatting here)
+src/environments/*.ts
+
+# Ignore Angular specific generated files
+src/**/*.d.ts
+
+# Ignore coverage reports
+coverage/
+
+# Ignore other config files you don’t want formatted
+*.config.js
+*.json
+
+# Ignore gitignore file itself
+.gitignore
